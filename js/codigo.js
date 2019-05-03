@@ -20,7 +20,7 @@ function datos() {
     //let patron2 = /a-zA-Z.,;·$%&\()=?¿<>:!¡+/; !patron2.test(fechNaci) &&
     do {
         pepe.fechNaci = prompt("Introduzca la fecha de nacimiento del Usuario: ");
-    }while (pepe.fechNaci === null && pepe.fechNaci === undefined);
+    }while (pepe.fechNaci === null || pepe.fechNaci === undefined);
 
     do {
         pepe.lugarResu = prompt("Introduzca el lugar de residencia del Usuario: ");
